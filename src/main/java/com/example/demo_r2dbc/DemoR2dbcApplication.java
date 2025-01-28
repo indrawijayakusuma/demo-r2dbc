@@ -9,5 +9,4 @@ public class DemoR2dbcApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoR2dbcApplication.class, args);
 	}
-
 }

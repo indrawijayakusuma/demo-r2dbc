@@ -1,6 +1,6 @@
 package com.example.demo_r2dbc.controller;
 
-import com.example.demo_r2dbc.model.User;
+import com.example.demo_r2dbc.entity.User;
 import com.example.demo_r2dbc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,7 +14,7 @@ public class UserController {
     private UserService userService;
 
     @GetMapping("/user")
-    public Mono<User> getUserByeEmail(@RequestParam String email){
+    public Mono<User> getUserByeEmail(@RequestParam String email) {
         return userService.getUserByEmail(email);
     }
 

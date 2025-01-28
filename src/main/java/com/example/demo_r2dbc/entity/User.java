@@ -1,4 +1,4 @@
-package com.example.demo_r2dbc.model;
+package com.example.demo_r2dbc.entity;
 
 import lombok.Data;
 import lombok.Getter;

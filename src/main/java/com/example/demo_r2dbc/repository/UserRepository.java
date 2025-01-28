@@ -1,6 +1,6 @@
 package com.example.demo_r2dbc.repository;
 
-import com.example.demo_r2dbc.model.User;
+import com.example.demo_r2dbc.entity.User;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 import reactor.core.publisher.Mono;
 
